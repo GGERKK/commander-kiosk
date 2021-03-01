@@ -1,0 +1,25 @@
+{
+    "firstName": "Richard",
+    "middleInitial": "R.",
+    "lastName": "Paul",
+    "rank": "Maj Gen",
+    "title": "Dr.",
+    "fullName": function() {
+      return this.rank + " " + this.title + " " this.firstName + " " + this.middleInitial + " " + this.lastName;
+    },
+    "thumbnail": " ",
+    "serviceStart": 1997,
+    "serviceEnd": 2000,
+    "serviceDates": function() {
+      return this.serviceStart + " - " + this.serviceEnd;
+    },
+    "bio": " ",
+    "education": " ",
+    "assignments": " ",
+    "jointAssignments": " ",
+    "flightInformation": " ",
+    "awards": " ",
+    "otherAchievements": " ",
+    "memberships": " ",
+    "promotions": " "
+  }
